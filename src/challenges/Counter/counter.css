@@ -1,0 +1,22 @@
+.counter-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.counter-app button {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+.operation-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.counter-app input {
+  padding: 0.5rem 0.1rem;
+  width: 5rem;
+  font-size: 1.2rem;
+}

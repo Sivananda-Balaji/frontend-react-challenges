@@ -1,5 +1,6 @@
 import { Link, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import Counter from "./challenges/Counter/Counter";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/challenges/Counter" element={<Counter />} />
         </Routes>
       </main>
     </div>
