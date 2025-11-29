@@ -1,5 +1,9 @@
-.home-page h2,
-ul {
+.home-page h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.home-page li {
   display: flex;
   justify-content: center;
 }
