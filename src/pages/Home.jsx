@@ -12,6 +12,9 @@ const Home = () => {
         <li>
           <Link to="/challenges/AnagaramChecker">Anagram Checker</Link>
         </li>
+        <li>
+          <Link to="/challenges/ImageGallery">Image Gallery</Link>
+        </li>
       </ul>
     </div>
   );

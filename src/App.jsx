@@ -2,6 +2,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Counter from "./challenges/Counter/Counter";
 import AnagramChecker from "./challenges/AnagaramChecker/AnagramChecker";
+import ImageGallery from "./challenges/ImageGallery/ImageGallery";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             path="/challenges/AnagaramChecker"
             element={<AnagramChecker />}
           />
+          <Route path="/challenges/ImageGallery" element={<ImageGallery />} />
         </Routes>
       </main>
     </div>

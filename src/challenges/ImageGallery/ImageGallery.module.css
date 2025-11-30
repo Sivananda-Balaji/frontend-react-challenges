@@ -1,0 +1,10 @@
+.gallery-p {
+  text-decoration: underline;
+}
+
+.gallery-image {
+  cursor: pointer;
+  width: 20rem;
+  height: 15rem;
+  margin: 1rem;
+}
