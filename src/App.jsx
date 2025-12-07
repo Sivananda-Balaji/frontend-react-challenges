@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Counter from "./challenges/Counter/Counter";
 import AnagramChecker from "./challenges/AnagaramChecker/AnagramChecker";
 import ImageGallery from "./challenges/ImageGallery/ImageGallery";
+import Accordion from "./challenges/Accordion/Accordion";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             element={<AnagramChecker />}
           />
           <Route path="/challenges/ImageGallery" element={<ImageGallery />} />
+          <Route path="/challenges/Accordion" element={<Accordion />} />
         </Routes>
       </main>
     </div>
