@@ -6,3 +6,8 @@
 .toggleSign {
   cursor: pointer;
 }
+
+.multiSelectQtn {
+  display: flex;
+  gap: 0.5rem;
+}
