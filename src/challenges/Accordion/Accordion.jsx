@@ -3,28 +3,29 @@ import { questions } from "./AccordionData";
 import style from "./Accordion.module.css";
 
 const Accordion = () => {
-  const [openId, setOpenId] = useState(null);
+  const [openId, setOpenId] = useState([]);
   const [isMultiSelect, setIsMultiSelect] = useState(false);
-  const [multipleId, setMultipleId] = useState([]);
 
   const handleClick = (id) => {
+    const idIndex = openId.indexOf(id);
+    const filtered = openId.filter((item) => item !== id);
     if (isMultiSelect) {
-      let temp = [...multipleId];
-      if (temp.includes(id)) {
-        temp = temp.filter((item) => item !== id);
-        setMultipleId(temp);
+      if (idIndex === -1) {
+        setOpenId([...openId, id]);
       } else {
-        temp.push(id);
-        setMultipleId(temp);
+        setOpenId(filtered);
       }
     } else {
-      setOpenId((prev) => (prev === id ? null : id));
+      if (idIndex !== -1) {
+        setOpenId(filtered);
+      } else {
+        setOpenId([id]);
+      }
     }
   };
   const handleMultiSelect = () => {
     setIsMultiSelect((prev) => !prev);
-    setMultipleId([]);
-    setOpenId(null);
+    setOpenId([]);
   };
 
   return (
@@ -40,25 +41,17 @@ const Accordion = () => {
       <div>
         {questions.map((question) => {
           return (
-            <div>
+            <div key={question.id}>
               <div className={style["questionSection"]}>
                 <p>{question.title}</p>
                 <p
                   onClick={() => handleClick(question.id)}
                   className={style["toggleSign"]}
                 >
-                  {isMultiSelect
-                    ? multipleId.includes(question.id)
-                      ? "-"
-                      : "+"
-                    : question.id === openId
-                    ? "-"
-                    : "+"}
+                  {openId.includes(question.id) ? "-" : "+"}
                 </p>
               </div>
-              {isMultiSelect
-                ? multipleId.includes(question.id) && <p>{question.info}</p>
-                : question.id === openId && <p>{question.info}</p>}
+              {openId.includes(question.id) && <p>{question.info}</p>}
             </div>
           );
         })}
