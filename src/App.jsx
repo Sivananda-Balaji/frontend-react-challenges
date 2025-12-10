@@ -4,6 +4,7 @@ import Counter from "./challenges/Counter/Counter";
 import AnagramChecker from "./challenges/AnagaramChecker/AnagramChecker";
 import ImageGallery from "./challenges/ImageGallery/ImageGallery";
 import Accordion from "./challenges/Accordion/Accordion";
+import BackgroundChanger from "./challenges/BackgroundChanger/BackgroundChanger";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           />
           <Route path="/challenges/ImageGallery" element={<ImageGallery />} />
           <Route path="/challenges/Accordion" element={<Accordion />} />
+          <Route
+            path="challenges/BackgroundChanger"
+            element={<BackgroundChanger />}
+          />
         </Routes>
       </main>
     </div>

@@ -18,6 +18,9 @@ const Home = () => {
         <li>
           <Link to="/challenges/Accordion">Accordion</Link>
         </li>
+        <li>
+          <Link to="challenges/BackgroundChanger">Background Changer</Link>
+        </li>
       </ul>
     </div>
   );
