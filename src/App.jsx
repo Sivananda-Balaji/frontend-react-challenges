@@ -5,6 +5,7 @@ import AnagramChecker from "./challenges/AnagaramChecker/AnagramChecker";
 import ImageGallery from "./challenges/ImageGallery/ImageGallery";
 import Accordion from "./challenges/Accordion/Accordion";
 import BackgroundChanger from "./challenges/BackgroundChanger/BackgroundChanger";
+import LightDarkMode from "./challenges/LightDarkMode/LightDarkMode";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             path="challenges/BackgroundChanger"
             element={<BackgroundChanger />}
           />
+          <Route path="challenges/LightDarkMode" element={<LightDarkMode />} />
         </Routes>
       </main>
     </div>

@@ -21,6 +21,9 @@ const Home = () => {
         <li>
           <Link to="challenges/BackgroundChanger">Background Changer</Link>
         </li>
+        <li>
+          <Link to="challenges/LightDarkMode">Light Dark Mode</Link>
+        </li>
       </ul>
     </div>
   );

@@ -1,0 +1,30 @@
+.toggleSection {
+  background-color: #282c35;
+  margin: 2rem 2rem;
+  padding: 1rem;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.toggleSection h1 {
+  margin-top: 0;
+}
+
+.toggleBtnSection {
+  padding: 0.7rem;
+  font-size: medium;
+  color: #fff;
+  background-color: #d23669;
+  border: 0;
+  cursor: pointer;
+}
+
+.lightTheme {
+  background-color: #fff;
+  color: #282c35;
+}
+
+.lightThemeBtn {
+  background-color: #ffd7c4;
+  color: #282c35;
+}
