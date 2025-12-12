@@ -1,6 +1,8 @@
 .home-page h2 {
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
 .home-page li {

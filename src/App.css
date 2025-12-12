@@ -1,0 +1,9 @@
+header {
+  font-family: sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: #2952ce;
+  font-weight: bold;
+}

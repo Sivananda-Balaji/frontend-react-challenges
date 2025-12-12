@@ -4,7 +4,7 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="home-page">
-      <h2>FrontEnd React Challenges</h2>
+      <h2>Frontend React Challenges</h2>
       <ul>
         <li>
           <Link to="/challenges/Counter">Counter</Link>
@@ -23,6 +23,9 @@ const Home = () => {
         </li>
         <li>
           <Link to="challenges/LightDarkMode">Light Dark Mode</Link>
+        </li>
+        <li>
+          <Link to="challenges/NaturalSport">Natural Sport</Link>
         </li>
       </ul>
     </div>

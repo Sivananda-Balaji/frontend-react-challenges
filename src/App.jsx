@@ -1,4 +1,5 @@
 import { Link, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Home from "./pages/Home";
 import Counter from "./challenges/Counter/Counter";
 import AnagramChecker from "./challenges/AnagaramChecker/AnagramChecker";
@@ -6,13 +7,14 @@ import ImageGallery from "./challenges/ImageGallery/ImageGallery";
 import Accordion from "./challenges/Accordion/Accordion";
 import BackgroundChanger from "./challenges/BackgroundChanger/BackgroundChanger";
 import LightDarkMode from "./challenges/LightDarkMode/LightDarkMode";
+import NaturalSport from "./challenges/NaturalSport/NaturalSport";
 
 function App() {
   return (
     <div className="app-route">
       <header>
         <Link to="/">
-          <h1>FrontEnd Mini Challenges</h1>
+          <h1>Frontend Mini Challenges</h1>
         </Link>
       </header>
       <main>
@@ -30,6 +32,7 @@ function App() {
             element={<BackgroundChanger />}
           />
           <Route path="challenges/LightDarkMode" element={<LightDarkMode />} />
+          <Route path="challenges/NaturalSport" element={<NaturalSport />} />
         </Routes>
       </main>
     </div>
