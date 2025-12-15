@@ -27,6 +27,9 @@ const Home = () => {
         <li>
           <Link to="challenges/NaturalSport">Natural Sport</Link>
         </li>
+        <li>
+          <Link to="challenges/TableColor">Table Color</Link>
+        </li>
       </ul>
     </div>
   );

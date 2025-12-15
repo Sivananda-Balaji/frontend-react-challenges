@@ -8,6 +8,7 @@ import Accordion from "./challenges/Accordion/Accordion";
 import BackgroundChanger from "./challenges/BackgroundChanger/BackgroundChanger";
 import LightDarkMode from "./challenges/LightDarkMode/LightDarkMode";
 import NaturalSport from "./challenges/NaturalSport/NaturalSport";
+import TableColor from "./challenges/TableColor/TableColor";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           />
           <Route path="challenges/LightDarkMode" element={<LightDarkMode />} />
           <Route path="challenges/NaturalSport" element={<NaturalSport />} />
+          <Route path="challenges/TableColor" element={<TableColor />} />
         </Routes>
       </main>
     </div>
