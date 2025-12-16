@@ -30,6 +30,9 @@ const Home = () => {
         <li>
           <Link to="challenges/TableColor">Table Color</Link>
         </li>
+        <li>
+          <Link to="challenges/GuessNumber">Guess The Number</Link>
+        </li>
       </ul>
     </div>
   );

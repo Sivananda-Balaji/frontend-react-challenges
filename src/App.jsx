@@ -9,6 +9,7 @@ import BackgroundChanger from "./challenges/BackgroundChanger/BackgroundChanger"
 import LightDarkMode from "./challenges/LightDarkMode/LightDarkMode";
 import NaturalSport from "./challenges/NaturalSport/NaturalSport";
 import TableColor from "./challenges/TableColor/TableColor";
+import GuessNumber from "./challenges/GuessNumber/Guessnumber";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="challenges/LightDarkMode" element={<LightDarkMode />} />
           <Route path="challenges/NaturalSport" element={<NaturalSport />} />
           <Route path="challenges/TableColor" element={<TableColor />} />
+          <Route path="challenges/GuessNumber" element={<GuessNumber />} />
         </Routes>
       </main>
     </div>
