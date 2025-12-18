@@ -33,6 +33,9 @@ const Home = () => {
         <li>
           <Link to="challenges/GuessNumber">Guess The Number</Link>
         </li>
+        <li>
+          <Link to="challenges/Pagination">Pagination</Link>
+        </li>
       </ul>
     </div>
   );
