@@ -36,6 +36,9 @@ const Home = () => {
         <li>
           <Link to="challenges/Pagination">Pagination</Link>
         </li>
+        <li>
+          <Link to="challenges/Stack">Stack</Link>
+        </li>
       </ul>
     </div>
   );

@@ -11,6 +11,7 @@ import NaturalSport from "./challenges/NaturalSport/NaturalSport";
 import TableColor from "./challenges/TableColor/TableColor";
 import GuessNumber from "./challenges/GuessNumber/Guessnumber";
 import Pagination from "./challenges/Pagination/Pagination";
+import Stack from "./challenges/StackImplementation/Stack";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="challenges/TableColor" element={<TableColor />} />
           <Route path="challenges/GuessNumber" element={<GuessNumber />} />
           <Route path="challenges/Pagination" element={<Pagination />} />
+          <Route path="challenges/Stack" element={<Stack />} />
         </Routes>
       </main>
     </div>
