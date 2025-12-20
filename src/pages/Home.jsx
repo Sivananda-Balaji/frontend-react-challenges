@@ -39,6 +39,9 @@ const Home = () => {
         <li>
           <Link to="challenges/Stack">Stack</Link>
         </li>
+        <li>
+          <Link to="challenges/WordCount">Word Count</Link>
+        </li>
       </ul>
     </div>
   );
