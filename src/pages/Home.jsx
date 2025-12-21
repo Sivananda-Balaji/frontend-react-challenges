@@ -42,6 +42,11 @@ const Home = () => {
         <li>
           <Link to="challenges/WordCount">Word Count</Link>
         </li>
+        <li>
+          <Link to="challenges/TemperatureConverter">
+            Temperature Converter
+          </Link>
+        </li>
       </ul>
     </div>
   );

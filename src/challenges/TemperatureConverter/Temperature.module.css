@@ -1,0 +1,13 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.convertSection {
+  display: flex;
+  gap: 7rem;
+}
+
+.convertSection p {
+  margin: 0;
+}

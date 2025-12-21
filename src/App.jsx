@@ -13,6 +13,7 @@ import GuessNumber from "./challenges/GuessNumber/Guessnumber";
 import Pagination from "./challenges/Pagination/Pagination";
 import Stack from "./challenges/StackImplementation/Stack";
 import WordCount from "./challenges/WordCount/WordCount";
+import Temperature from "./challenges/TemperatureConverter/Temperature";
 
 function App() {
   return (
@@ -43,6 +44,10 @@ function App() {
           <Route path="challenges/Pagination" element={<Pagination />} />
           <Route path="challenges/Stack" element={<Stack />} />
           <Route path="challenges/WordCount" element={<WordCount />} />
+          <Route
+            path="challenges/TemperatureConverter"
+            element={<Temperature />}
+          />
         </Routes>
       </main>
     </div>
