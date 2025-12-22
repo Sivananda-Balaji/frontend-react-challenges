@@ -47,6 +47,9 @@ const Home = () => {
             Temperature Converter
           </Link>
         </li>
+        <li>
+          <Link to="challenges/StarRating">Star Rating</Link>
+        </li>
       </ul>
     </div>
   );

@@ -1,0 +1,10 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.starSection {
+  font-size: xx-large;
+  cursor: pointer;
+}

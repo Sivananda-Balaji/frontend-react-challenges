@@ -14,6 +14,7 @@ import Pagination from "./challenges/Pagination/Pagination";
 import Stack from "./challenges/StackImplementation/Stack";
 import WordCount from "./challenges/WordCount/WordCount";
 import Temperature from "./challenges/TemperatureConverter/Temperature";
+import StarRating from "./challenges/StarRating/StarRating";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             path="challenges/TemperatureConverter"
             element={<Temperature />}
           />
+          <Route path="challenges/StarRating" element={<StarRating />} />
         </Routes>
       </main>
     </div>
