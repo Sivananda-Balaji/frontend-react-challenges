@@ -50,6 +50,9 @@ const Home = () => {
         <li>
           <Link to="challenges/StarRating">Star Rating</Link>
         </li>
+        <li>
+          <Link to="challenges/TelephoneFormatter">Telephone Formatter</Link>
+        </li>
       </ul>
     </div>
   );

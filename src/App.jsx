@@ -15,6 +15,7 @@ import Stack from "./challenges/StackImplementation/Stack";
 import WordCount from "./challenges/WordCount/WordCount";
 import Temperature from "./challenges/TemperatureConverter/Temperature";
 import StarRating from "./challenges/StarRating/StarRating";
+import TelephoneFormatter from "./challenges/TelephoneFormatter/TelephoneFormatter";
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
             element={<Temperature />}
           />
           <Route path="challenges/StarRating" element={<StarRating />} />
+          <Route
+            path="challenges/TelephoneFormatter"
+            element={<TelephoneFormatter />}
+          />
         </Routes>
       </main>
     </div>
