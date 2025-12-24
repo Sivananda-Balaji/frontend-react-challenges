@@ -53,6 +53,9 @@ const Home = () => {
         <li>
           <Link to="challenges/TelephoneFormatter">Telephone Formatter</Link>
         </li>
+        <li>
+          <Link to="challenges/StringTransformer">String Transformer</Link>
+        </li>
       </ul>
     </div>
   );

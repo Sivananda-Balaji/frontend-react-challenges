@@ -16,6 +16,7 @@ import WordCount from "./challenges/WordCount/WordCount";
 import Temperature from "./challenges/TemperatureConverter/Temperature";
 import StarRating from "./challenges/StarRating/StarRating";
 import TelephoneFormatter from "./challenges/TelephoneFormatter/TelephoneFormatter";
+import StringTransformers from "./challenges/StringTransformers/StringTransformers";
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
           <Route
             path="challenges/TelephoneFormatter"
             element={<TelephoneFormatter />}
+          />
+          <Route
+            path="challenges/StringTransformer"
+            element={<StringTransformers />}
           />
         </Routes>
       </main>
