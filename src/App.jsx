@@ -17,6 +17,7 @@ import Temperature from "./challenges/TemperatureConverter/Temperature";
 import StarRating from "./challenges/StarRating/StarRating";
 import TelephoneFormatter from "./challenges/TelephoneFormatter/TelephoneFormatter";
 import StringTransformers from "./challenges/StringTransformers/StringTransformers";
+import TicTacToe from "./challenges/TicTacToe/TicTacToe";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
             path="challenges/StringTransformer"
             element={<StringTransformers />}
           />
+          <Route path="challenges/TicTacToe" element={<TicTacToe />} />
         </Routes>
       </main>
     </div>

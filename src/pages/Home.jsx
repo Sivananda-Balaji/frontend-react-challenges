@@ -56,6 +56,9 @@ const Home = () => {
         <li>
           <Link to="challenges/StringTransformer">String Transformer</Link>
         </li>
+        <li>
+          <Link to="challenges/TicTacToe">Tic Tac Toe</Link>
+        </li>
       </ul>
     </div>
   );

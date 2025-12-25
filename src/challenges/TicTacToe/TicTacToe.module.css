@@ -1,0 +1,47 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.GamePoints {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.GamePoints h3 {
+  margin: 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem;
+  border: 1px solid black;
+}
+
+.gridCell {
+  border: 1px solid black;
+  padding: 1.5rem;
+  cursor: pointer;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  width: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.buttonSection {
+  margin: 1rem;
+}
+
+.buttonSection button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
