@@ -18,6 +18,7 @@ import StarRating from "./challenges/StarRating/StarRating";
 import TelephoneFormatter from "./challenges/TelephoneFormatter/TelephoneFormatter";
 import StringTransformers from "./challenges/StringTransformers/StringTransformers";
 import TicTacToe from "./challenges/TicTacToe/TicTacToe";
+import ExpenseTracker from "./challenges/ExpenseTracker/ExpenseTracker";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
             element={<StringTransformers />}
           />
           <Route path="challenges/TicTacToe" element={<TicTacToe />} />
+          <Route
+            path="challenges/ExpenseTracker"
+            element={<ExpenseTracker />}
+          />
         </Routes>
       </main>
     </div>

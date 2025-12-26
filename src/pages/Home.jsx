@@ -59,6 +59,9 @@ const Home = () => {
         <li>
           <Link to="challenges/TicTacToe">Tic Tac Toe</Link>
         </li>
+        <li>
+          <Link to="challenges/ExpenseTracker">Expense Tracker</Link>
+        </li>
       </ul>
     </div>
   );

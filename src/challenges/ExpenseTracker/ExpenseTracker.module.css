@@ -1,0 +1,14 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+/* Expense List Componen Style */
+
+.expenseItem {
+  display: flex;
+}
+
+.expenseItem p {
+  margin: 0;
+}
