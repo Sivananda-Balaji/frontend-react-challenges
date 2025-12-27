@@ -19,6 +19,7 @@ import TelephoneFormatter from "./challenges/TelephoneFormatter/TelephoneFormatt
 import StringTransformers from "./challenges/StringTransformers/StringTransformers";
 import TicTacToe from "./challenges/TicTacToe/TicTacToe";
 import ExpenseTracker from "./challenges/ExpenseTracker/ExpenseTracker";
+import BMICalculator from "./challenges/BMICalculator/BMICalculator";
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
             path="challenges/ExpenseTracker"
             element={<ExpenseTracker />}
           />
+          <Route path="challenges/BMICalculator" element={<BMICalculator />} />
         </Routes>
       </main>
     </div>
