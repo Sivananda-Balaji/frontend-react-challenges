@@ -11,10 +11,11 @@ const AddExpense = ({ onAdd }) => {
   };
   const handleAmount = (e) => {
     const { value } = e.target;
-    if (Number(value) <= 0) {
+    if (value === "") {
+      setAmount(value);
       return;
     }
-    if (/^\d*\.?\d*$/.test(value)) {
+    if (/^\d*\.?\d*$/.test(value) && Number(value) > 0) {
       setAmount(value);
     }
   };
@@ -56,6 +57,7 @@ const AddExpense = ({ onAdd }) => {
             id="amount"
             value={amount}
             onChange={handleAmount}
+            placeholder="Please enter amount"
             required
           />
         </div>

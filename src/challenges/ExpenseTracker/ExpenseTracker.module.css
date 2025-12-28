@@ -1,14 +1,86 @@
 .container {
   font-family: sans-serif;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add Expense Component Style */
+
+.addExpense {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.addExpense input,
+.addExpense select,
+.addExpense button {
+  box-sizing: border-box;
+  width: 25rem;
+  padding: 0.7rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.addExpense button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
 }
 
 /* Expense List Componen Style */
 
 .expenseItem {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .expenseItem p {
   margin: 0;
+  padding: 1rem;
+}
+
+.expenseListSection {
+  border: 1px solid black;
+  margin: 1rem;
+  width: 28rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.expenseItem button {
+  font-size: 1rem;
+  margin: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #ff4136;
+  color: #fff;
+  cursor: pointer;
+}
+
+.expenseListSection h2 {
+  border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
+}
+
+/* Expense Summary Component Style */
+
+.expenseSummary {
+  border: 1px solid black;
+  width: 26rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.expenseSummary h2 {
+  border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
 }

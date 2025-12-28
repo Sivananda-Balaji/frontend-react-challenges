@@ -14,7 +14,7 @@ const ExpenseList = ({ expenseList, onDelete }) => {
             <p>
               {date} - ${amount} - {category}
             </p>
-            <button onClick={() => handleDeleteClick(id)}>delete</button>
+            <button onClick={() => handleDeleteClick(id)}>Delete</button>
           </div>
         );
       })}
