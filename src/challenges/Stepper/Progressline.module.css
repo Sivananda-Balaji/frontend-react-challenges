@@ -1,0 +1,12 @@
+.progress-line {
+  flex: 1;
+  height: 2px;
+  background-color: #cbd5e1;
+  margin-bottom: 1rem;
+  align-self: center;
+  z-index: 1;
+}
+
+.progress-line.completed {
+  background-color: #16a34a;
+}

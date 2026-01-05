@@ -20,6 +20,7 @@ import StringTransformers from "./challenges/StringTransformers/StringTransforme
 import TicTacToe from "./challenges/TicTacToe/TicTacToe";
 import ExpenseTracker from "./challenges/ExpenseTracker/ExpenseTracker";
 import BMICalculator from "./challenges/BMICalculator/BMICalculator";
+import StepperContainer from "./challenges/Stepper/StepperContainer";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
             element={<ExpenseTracker />}
           />
           <Route path="challenges/BMICalculator" element={<BMICalculator />} />
+          <Route path="challenges/Stepper" element={<StepperContainer />} />
         </Routes>
       </main>
     </div>

@@ -65,6 +65,9 @@ const Home = () => {
         <li>
           <Link to="challenges/BMICalculator">BMI Calculator</Link>
         </li>
+        <li>
+          <Link to="challenges/Stepper">Stepper</Link>
+        </li>
       </ul>
     </div>
   );

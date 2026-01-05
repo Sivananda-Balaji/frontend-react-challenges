@@ -1,0 +1,9 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.stepContainer {
+  display: flex;
+  justify-content: center;
+}

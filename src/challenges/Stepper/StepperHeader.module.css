@@ -1,0 +1,13 @@
+.stepper-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.stepper-segment {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
