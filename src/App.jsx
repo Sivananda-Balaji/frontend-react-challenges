@@ -21,6 +21,7 @@ import TicTacToe from "./challenges/TicTacToe/TicTacToe";
 import ExpenseTracker from "./challenges/ExpenseTracker/ExpenseTracker";
 import BMICalculator from "./challenges/BMICalculator/BMICalculator";
 import StepperContainer from "./challenges/Stepper/StepperContainer";
+import InlineOption from "./challenges/InlineOption/InlineOption";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
           />
           <Route path="challenges/BMICalculator" element={<BMICalculator />} />
           <Route path="challenges/Stepper" element={<StepperContainer />} />
+          <Route path="challenges/Inline" element={<InlineOption />} />
         </Routes>
       </main>
     </div>

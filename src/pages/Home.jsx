@@ -68,6 +68,9 @@ const Home = () => {
         <li>
           <Link to="challenges/Stepper">Stepper</Link>
         </li>
+        <li>
+          <Link to="challenges/Inline">Inline Option</Link>
+        </li>
       </ul>
     </div>
   );
