@@ -22,6 +22,7 @@ import ExpenseTracker from "./challenges/ExpenseTracker/ExpenseTracker";
 import BMICalculator from "./challenges/BMICalculator/BMICalculator";
 import StepperContainer from "./challenges/Stepper/StepperContainer";
 import InlineOption from "./challenges/InlineOption/InlineOption";
+import TabContainer from "./challenges/Tab/TabContainer";
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
           <Route path="challenges/BMICalculator" element={<BMICalculator />} />
           <Route path="challenges/Stepper" element={<StepperContainer />} />
           <Route path="challenges/Inline" element={<InlineOption />} />
+          <Route path="challenges/Tab" element={<TabContainer />} />
         </Routes>
       </main>
     </div>
