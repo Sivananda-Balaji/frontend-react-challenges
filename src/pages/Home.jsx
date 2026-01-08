@@ -74,6 +74,9 @@ const Home = () => {
         <li>
           <Link to="challenges/Tab">Tab</Link>
         </li>
+        <li>
+          <Link to="challenges/ColorMixer">Color Mixer</Link>
+        </li>
       </ul>
     </div>
   );
