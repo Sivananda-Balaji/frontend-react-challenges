@@ -1,0 +1,35 @@
+.container {
+  font-family: sans-serif;
+  font-size: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.templateContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.templateContainer select {
+  padding: 0.3rem;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.infoContainer input {
+  padding: 0.3rem;
+}
+
+.signature {
+  margin-top: 3rem;
+}
+
+.signature p {
+  margin: 0;
+}

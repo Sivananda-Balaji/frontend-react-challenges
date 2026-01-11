@@ -77,6 +77,9 @@ const Home = () => {
         <li>
           <Link to="challenges/ColorMixer">Color Mixer</Link>
         </li>
+        <li>
+          <Link to="challenges/EmailTemplates">Email EmailTemplates</Link>
+        </li>
       </ul>
     </div>
   );

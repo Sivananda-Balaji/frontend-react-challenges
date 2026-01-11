@@ -24,6 +24,7 @@ import StepperContainer from "./challenges/Stepper/StepperContainer";
 import InlineOption from "./challenges/InlineOption/InlineOption";
 import TabContainer from "./challenges/Tab/TabContainer";
 import ColorMixer from "./challenges/ColorMixer/ColorMixer";
+import EmailTemplates from "./challenges/EmailTemplates/EmailTemplates";
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
           <Route path="challenges/Inline" element={<InlineOption />} />
           <Route path="challenges/Tab" element={<TabContainer />} />
           <Route path="challenges/ColorMixer" element={<ColorMixer />} />
+          <Route
+            path="challenges/EmailTemplates"
+            element={<EmailTemplates />}
+          />
         </Routes>
       </main>
     </div>
