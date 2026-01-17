@@ -78,7 +78,10 @@ const Home = () => {
           <Link to="challenges/ColorMixer">Color Mixer</Link>
         </li>
         <li>
-          <Link to="challenges/EmailTemplates">Email EmailTemplates</Link>
+          <Link to="challenges/EmailTemplates">Email Templates</Link>
+        </li>
+        <li>
+          <Link to="challenges/TrafficLights">Traffic Lights</Link>
         </li>
       </ul>
     </div>

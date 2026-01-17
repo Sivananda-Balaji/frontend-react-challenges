@@ -25,6 +25,7 @@ import InlineOption from "./challenges/InlineOption/InlineOption";
 import TabContainer from "./challenges/Tab/TabContainer";
 import ColorMixer from "./challenges/ColorMixer/ColorMixer";
 import EmailTemplates from "./challenges/EmailTemplates/EmailTemplates";
+import TrafficLights from "./challenges/TrafficLights/TrafficLights";
 
 function App() {
   return (
@@ -82,6 +83,7 @@ function App() {
             path="challenges/EmailTemplates"
             element={<EmailTemplates />}
           />
+          <Route path="challenges/TrafficLights" element={<TrafficLights />} />
         </Routes>
       </main>
     </div>
