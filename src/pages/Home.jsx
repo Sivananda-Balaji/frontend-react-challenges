@@ -83,6 +83,9 @@ const Home = () => {
         <li>
           <Link to="challenges/TrafficLights">Traffic Lights</Link>
         </li>
+        <li>
+          <Link to="challenges/ToastPopup">Toast Popup</Link>
+        </li>
       </ul>
     </div>
   );
