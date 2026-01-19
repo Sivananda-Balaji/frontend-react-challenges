@@ -46,6 +46,7 @@
   border: 1px solid gray;
   position: absolute;
   background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 .toastMessage span {
   margin-right: 1rem;
@@ -63,4 +64,54 @@
 
 .bottom {
   bottom: 1rem;
+}
+
+.toastMessage button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.success {
+  background-color: hsl(143, 85%, 96%);
+  color: hsl(140, 100%, 27%);
+  border: 1px solid hsl(145, 92%, 91%);
+}
+
+.success button {
+  background-color: hsl(143, 85%, 96%);
+  color: hsl(140, 100%, 27%);
+}
+
+.error {
+  background-color: hsl(359, 100%, 97%);
+  color: hsl(360, 100%, 45%);
+  border: 1px solid hsl(359, 100%, 94%);
+}
+
+.error button {
+  background-color: hsl(143, 85%, 96%);
+  color: hsl(360, 100%, 45%);
+}
+
+.warning {
+  background-color: hsl(49, 100%, 97%);
+  color: hsl(31, 92%, 45%);
+  border: 1px solid hsl(49, 91%, 91%);
+}
+
+.warning button {
+  background-color: hsl(49, 100%, 97%);
+  color: hsl(31, 92%, 45%);
+}
+
+.info {
+  background-color: hsl(208, 100%, 97%);
+  color: hsl(210, 92%, 45%);
+  border: 1px solid hsl(221, 91%, 91%);
+}
+
+.info button {
+  background-color: hsl(208, 100%, 97%);
+  color: hsl(210, 92%, 45%);
 }

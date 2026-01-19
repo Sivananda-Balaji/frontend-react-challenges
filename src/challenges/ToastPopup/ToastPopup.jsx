@@ -6,7 +6,7 @@ const ToastPopup = () => {
   const [vertical, setVertical] = useState("top");
   const [messageType, setMessageType] = useState("success");
   const [message, setMessage] = useState("This is a toast message!");
-  const [duration, setDuration] = useState(50);
+  const [duration, setDuration] = useState(5);
   const [showToast, setShowToast] = useState(false);
   const handleShowToast = () => {
     setShowToast(true);
@@ -15,11 +15,14 @@ const ToastPopup = () => {
     setShowToast(false);
   };
   useEffect(() => {
+    if (!showToast) {
+      return;
+    }
     const timer = setTimeout(() => {
-      handleHideToast();
-    }, duration * 100);
+      setShowToast(false);
+    }, duration * 1000);
     return () => clearTimeout(timer);
-  }, [duration]);
+  }, [duration, showToast]);
   return (
     <div className={style.container}>
       <div className={style.toastContainer}>
@@ -71,7 +74,10 @@ const ToastPopup = () => {
             type="range"
             id="duration"
             value={duration}
-            onChange={(e) => setDuration(e.target.value)}
+            min={1}
+            max={10}
+            step={1}
+            onChange={(e) => setDuration(Number(e.target.value))}
           />
         </div>
         <div className={style.buttonContainer}>
@@ -81,7 +87,7 @@ const ToastPopup = () => {
       {showToast && (
         <div
           className={`${style.toastMessage} ${horizontal === "left" ? style.left : style.right}
-        ${vertical === "top" ? style.top : style.bottom}
+        ${vertical === "top" ? style.top : style.bottom} ${style[messageType]}
         `}
         >
           <span>{message}</span>
