@@ -86,6 +86,9 @@ const Home = () => {
         <li>
           <Link to="challenges/ToastPopup">Toast Popup</Link>
         </li>
+        <li>
+          <Link to="challenges/ModalPopup">Modal Popup</Link>
+        </li>
       </ul>
     </div>
   );

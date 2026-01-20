@@ -27,6 +27,7 @@ import ColorMixer from "./challenges/ColorMixer/ColorMixer";
 import EmailTemplates from "./challenges/EmailTemplates/EmailTemplates";
 import TrafficLights from "./challenges/TrafficLights/TrafficLights";
 import ToastPopup from "./challenges/ToastPopup/ToastPopup";
+import ModalPopup from "./challenges/ModalPopup/ModalPopup";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
           />
           <Route path="challenges/TrafficLights" element={<TrafficLights />} />
           <Route path="challenges/ToastPopup" element={<ToastPopup />} />
+          <Route path="challenges/ModalPopup" element={<ModalPopup />} />
         </Routes>
       </main>
     </div>
