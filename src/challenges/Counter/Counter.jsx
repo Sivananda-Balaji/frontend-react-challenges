@@ -3,7 +3,7 @@ import "./counter.css";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-  const [userChoice, setUserChoice] = useState("");
+  const [userChoice, setUserChoice] = useState(1);
   const handleIncrement = () => {
     setCount((prev) => prev + userChoice);
   };
