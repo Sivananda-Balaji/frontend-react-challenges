@@ -89,6 +89,9 @@ const Home = () => {
         <li>
           <Link to="challenges/ModalPopup">Modal Popup</Link>
         </li>
+        <li>
+          <Link to="challenges/PasswordStrength">Password Strength</Link>
+        </li>
       </ul>
     </div>
   );

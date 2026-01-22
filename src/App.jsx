@@ -28,6 +28,7 @@ import EmailTemplates from "./challenges/EmailTemplates/EmailTemplates";
 import TrafficLights from "./challenges/TrafficLights/TrafficLights";
 import ToastPopup from "./challenges/ToastPopup/ToastPopup";
 import ModalPopup from "./challenges/ModalPopup/ModalPopup";
+import PasswordStrength from "./challenges/PasswordStrength/PasswordStrength";
 
 function App() {
   return (
@@ -88,6 +89,10 @@ function App() {
           <Route path="challenges/TrafficLights" element={<TrafficLights />} />
           <Route path="challenges/ToastPopup" element={<ToastPopup />} />
           <Route path="challenges/ModalPopup" element={<ModalPopup />} />
+          <Route
+            path="challenges/PasswordStrength"
+            element={<PasswordStrength />}
+          />
         </Routes>
       </main>
     </div>
